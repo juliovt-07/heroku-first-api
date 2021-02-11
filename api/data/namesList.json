@@ -1,0 +1,21 @@
+{
+  "namesList": {
+    "data": [
+      {
+        "id": "1",
+        "name": "julio",
+        "email": "jcproducoes.verytop@gmail.com"
+      },
+      {
+        "id": "2",
+        "name": "cesar",
+        "email": "jcproducoes.verytop@gmail.com"
+      },
+      {
+        "id": "3",
+        "name": "joao",
+        "email": "jcproducoes.verytop@gmail.com"
+      }
+    ]
+  }
+}

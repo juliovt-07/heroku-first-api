@@ -1,23 +1,26 @@
 {
   "name": "heroku-first-api",
-  "version": "1.0.0",
-  "description": "api nodejs",
+  "version": "1.0.1",
+  "description": "API feita em Nodejs para deploy na heroku",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliovt-07/heroku-first-api.git"
   },
-  "author": "julio cesar",
+  "author": "Júlio César",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juliovt-07/heroku-first-api/issues"
   },
   "homepage": "https://github.com/juliovt-07/heroku-first-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
   }
 }
